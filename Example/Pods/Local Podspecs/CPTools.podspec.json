@@ -1,0 +1,22 @@
+{
+  "name": "CPTools",
+  "version": "0.1.0",
+  "summary": "CPTools encompasses some commonly used tools.",
+  "description": "CPTools encompasses some commonly used tools developed by Pet Cao.",
+  "homepage": "https://github.com/ITEnthusiast/CPTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Pet Cao": "admin@caopei.cn"
+  },
+  "source": {
+    "git": "https://github.com/ITEnthusiast/CPTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CPTools/Classes/**/*"
+}

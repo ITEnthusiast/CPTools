@@ -1,0 +1,16 @@
+PODS:
+  - CPTools (0.1.0)
+
+DEPENDENCIES:
+  - CPTools (from `../`)
+
+EXTERNAL SOURCES:
+  CPTools:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CPTools: a6fced0980fb8e1c292012816e146eabecdc7468
+
+PODFILE CHECKSUM: b915f2b671527e79c6a2e6db9a1085813ed18a46
+
+COCOAPODS: 1.0.1
