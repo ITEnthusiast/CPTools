@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CPTools'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'CPTools encompasses some commonly used tools.'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-# s.source_files = 'CPTools/Classes/**/*'
+s.source_files = 'CPTools/Classes/**/*'
 
 s.subspec 'Database' do |a|
 a.source_files = 'CPTools/Classes/Database/**/*'
