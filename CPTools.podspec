@@ -18,7 +18,9 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-CPTools encompasses some commonly used tools developed by Pet Cao.
+
+    CPTools encompasses some commonly used tools developed by Pet Cao.
+
                        DESC
 
   s.homepage         = 'https://github.com/ITEnthusiast/CPTools'
@@ -30,8 +32,21 @@ CPTools encompasses some commonly used tools developed by Pet Cao.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'CPTools/Classes/**/*'
-  
+# s.source_files = 'CPTools/Classes/**/*'
+
+s.subspec 'Database' do |a|
+a.source_files = 'CPTools/Classes/Database/**/*'
+end
+
+s.subspec 'Network' do |b|
+b.source_files = 'CPTools/Classes/Network/**/*'
+b.dependency 'AFNetworking', '~> 3.1.0'
+end
+
+s.subspec 'UIKit' do |c|
+c.source_files = 'CPTools/Classes/UIKit/**/*'
+end
+
   # s.resource_bundles = {
   #   'CPTools' => ['CPTools/Assets/*.png']
   # }
