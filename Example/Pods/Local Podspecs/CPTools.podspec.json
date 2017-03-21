@@ -1,6 +1,6 @@
 {
   "name": "CPTools",
-  "version": "0.2.0",
+  "version": "0.2.4",
   "summary": "CPTools encompasses some commonly used tools.",
   "description": "CPTools encompasses some commonly used tools developed by Pet Cao.",
   "homepage": "https://github.com/ITEnthusiast/CPTools",
@@ -13,10 +13,29 @@
   },
   "source": {
     "git": "https://github.com/ITEnthusiast/CPTools.git",
-    "tag": "0.2.0"
+    "tag": "0.2.4"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CPTools/Classes/**/*"
+  "public_header_files": "CPTools/Classes/CPTools.h",
+  "subspecs": [
+    {
+      "name": "Database",
+      "source_files": "CPTools/Classes/Database/**/*"
+    },
+    {
+      "name": "Network",
+      "source_files": "CPTools/Classes/Network/**/*",
+      "dependencies": {
+        "AFNetworking": [
+          "~> 3.1.0"
+        ]
+      }
+    },
+    {
+      "name": "UIKit",
+      "source_files": "CPTools/Classes/UIKit/**/*"
+    }
+  ]
 }
