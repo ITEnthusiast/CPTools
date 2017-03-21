@@ -22,7 +22,7 @@ pod "CPTools"
 
 ## Author
 
-admin@caopei.cn, admin@caopei.cn
+Pet Cao, admin@caopei.cn
 
 ## License
 

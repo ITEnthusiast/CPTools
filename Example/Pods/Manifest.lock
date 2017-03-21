@@ -1,5 +1,5 @@
 PODS:
-  - CPTools (0.1.0)
+  - CPTools (0.2.0)
 
 DEPENDENCIES:
   - CPTools (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CPTools: a6fced0980fb8e1c292012816e146eabecdc7468
+  CPTools: 499b67f97a7ed12fca3f90dc593b7797507f038c
 
 PODFILE CHECKSUM: b915f2b671527e79c6a2e6db9a1085813ed18a46
 

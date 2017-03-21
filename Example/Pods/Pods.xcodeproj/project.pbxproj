@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3901E9F94D24CE07E374231AC264E36C /* CPTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E41894CB84591E7BCDE5047525C7F668 /* CPTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		493C0C8D3D05099E7297203C34D8B185 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		6BA9302A5DBC22BCC72DAB17DB5ED439 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BADDCC962CA662ED984FF066B522CFF8 /* ReplaceMe.m */; };
-		77939FBCD861A9EC198458170676A945 /* CPTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E41894CB84591E7BCDE5047525C7F668 /* CPTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92C2AC5C4DD1962208F291BA1E6CAF40 /* CPTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C5A75634DFFB2DAF340F1A8B447A97 /* CPTools-dummy.m */; };
+		4944264C2C9227006ECDA7FFBF970BD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B0F1142431556BA9FFDBE7E93DFB438B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A02F39F09A5C2521FD0C85C16F7FD7 /* ReplaceMe.m */; };
 		B7A16C93B586F2D9C294E26B8E145006 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		BDC2EA63F7534683F0231F27CDC0B4B1 /* Pods-CPTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B557BDC8ACE218FDBE0D3773549EA095 /* Pods-CPTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C077D5495AC9FD95297345693F88680E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C8890950B3752ABF5EC867BB7EE7085B /* CPTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C5A75634DFFB2DAF340F1A8B447A97 /* CPTools-dummy.m */; };
 		CCF89F2AB1E7882F7F6EA6992FCFDAB5 /* Pods-CPTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B08D58445F66B59DF967047AC4D968 /* Pods-CPTools_Tests-dummy.m */; };
 		CDC2046F630B2D781FC7904D13EC28C4 /* Pods-CPTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C1D17FA70CDB842B0CE95213F02DCE5 /* Pods-CPTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBCE64A397D689A8B25065B79F427F6E /* Pods-CPTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D39CC7885BA82E80998CB89CC7FE537 /* Pods-CPTools_Example-dummy.m */; };
@@ -24,7 +24,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7234FED9ADA4C095B1C08B2366DFDDD9;
+			remoteGlobalIDString = AB9A5F4C047E48AF4F43FA8E4A8DBA5E;
 			remoteInfo = CPTools;
 		};
 /* End PBXContainerItemProxy section */
@@ -32,10 +32,13 @@
 /* Begin PBXFileReference section */
 		03A32A1EA5328E85E277507CACDED6BA /* Pods-CPTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1904B4706CBCA96CEBEFE1303C769263 /* Pods-CPTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CPTools_Example.modulemap"; sourceTree = "<group>"; };
+		25A02F39F09A5C2521FD0C85C16F7FD7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		25B08D58445F66B59DF967047AC4D968 /* Pods-CPTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CPTools_Tests-dummy.m"; sourceTree = "<group>"; };
 		2C1D17FA70CDB842B0CE95213F02DCE5 /* Pods-CPTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CPTools_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2F9D8CDBA11E2148695393FFE5B2C95A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		30AA5ABB627C42A32D7E494FB4043250 /* Pods_CPTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CPTools_Tests.framework; path = "Pods-CPTools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		385037E7D823E90DFE4BD57C2A06D60E /* Pods-CPTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CPTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4DC89444236FB2725E98A12381A4B51E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		567F4595857164A6EFF38C4E4A029ED1 /* CPTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CPTools.modulemap; sourceTree = "<group>"; };
 		56C72B9A6C7B9B13E9ADD37A0D699D21 /* Pods-CPTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		56C831A1916440C59020A5B343CF3F9A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,7 +55,6 @@
 		AE22C4676F0D3018FAE2139529217C79 /* Pods-CPTools_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CPTools_Tests-resources.sh"; sourceTree = "<group>"; };
 		B557BDC8ACE218FDBE0D3773549EA095 /* Pods-CPTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CPTools_Example-umbrella.h"; sourceTree = "<group>"; };
 		B5B46A554C22590FCE9ACA33A0CA1F47 /* Pods-CPTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BADDCC962CA662ED984FF066B522CFF8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		C243FCFB5CE1801F4991975ED9E9CFD6 /* Pods-CPTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C42C00A60431B4B8F3A6D45D803C4203 /* Pods_CPTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CPTools_Example.framework; path = "Pods-CPTools_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C530E8C27AB903A524FCDE80C47BED89 /* Pods-CPTools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CPTools_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -65,19 +67,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		162259B4C52970AC8D9F48FA540BE8B3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C077D5495AC9FD95297345693F88680E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3E56A565DB34DF4FC2B648940EBFA33B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B7A16C93B586F2D9C294E26B8E145006 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4350C5E05E5548DFB14F38C76FF4C411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4944264C2C9227006ECDA7FFBF970BD5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +94,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05454C4F8C4AB0BA3650AA04F95B3C3B /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				2F9D8CDBA11E2148695393FFE5B2C95A /* ReplaceMe.m */,
+			);
+			name = Database;
+			path = Database;
+			sourceTree = "<group>";
+		};
 		0E068C40597B057FF0FBC203728CECAF /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +130,35 @@
 			path = "Target Support Files/Pods-CPTools_Example";
 			sourceTree = "<group>";
 		};
+		156CD145229D1690B3192F4F5E3C4DC3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4DC89444236FB2725E98A12381A4B51E /* ReplaceMe.m */,
+			);
+			name = Network;
+			path = Network;
+			sourceTree = "<group>";
+		};
+		18A6B7451D6051D03996E04AAC9E9D9E /* CPTools */ = {
+			isa = PBXGroup;
+			children = (
+				2E0DEC89EB93768159797FEF32DE7674 /* Classes */,
+			);
+			name = CPTools;
+			path = CPTools;
+			sourceTree = "<group>";
+		};
+		2E0DEC89EB93768159797FEF32DE7674 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				05454C4F8C4AB0BA3650AA04F95B3C3B /* Database */,
+				156CD145229D1690B3192F4F5E3C4DC3 /* Network */,
+				D3A838B7208935AFB13151D86984F4D1 /* UIKit */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		367FBE3C36C5E33A33B2B396329F966C /* Pods-CPTools_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,7 +180,7 @@
 		73D8E56E2E667C1BDBFCFA4C15F59838 /* CPTools */ = {
 			isa = PBXGroup;
 			children = (
-				AC051E21DCBC1C2899F904F51BAAED2F /* CPTools */,
+				18A6B7451D6051D03996E04AAC9E9D9E /* CPTools */,
 				BC753BB0B6A654DABB2EA706E227B5CB /* Support Files */,
 			);
 			name = CPTools;
@@ -172,15 +212,6 @@
 				73D8E56E2E667C1BDBFCFA4C15F59838 /* CPTools */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		AC051E21DCBC1C2899F904F51BAAED2F /* CPTools */ = {
-			isa = PBXGroup;
-			children = (
-				F692C32D3A22F4F3A3D4BDF69B5EB984 /* Classes */,
-			);
-			name = CPTools;
-			path = CPTools;
 			sourceTree = "<group>";
 		};
 		B8339503EF941E65ADE634B96CD69E0C /* Products */ = {
@@ -215,13 +246,13 @@
 			path = "Example/Pods/Target Support Files/CPTools";
 			sourceTree = "<group>";
 		};
-		F692C32D3A22F4F3A3D4BDF69B5EB984 /* Classes */ = {
+		D3A838B7208935AFB13151D86984F4D1 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				BADDCC962CA662ED984FF066B522CFF8 /* ReplaceMe.m */,
+				25A02F39F09A5C2521FD0C85C16F7FD7 /* ReplaceMe.m */,
 			);
-			name = Classes;
-			path = Classes;
+			name = UIKit;
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,11 +266,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6AED2AEE10CF12DAEFCF2B7740E250A /* Headers */ = {
+		98F1A45DD9032707BE61F12197EEE512 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77939FBCD861A9EC198458170676A945 /* CPTools-umbrella.h in Headers */,
+				3901E9F94D24CE07E374231AC264E36C /* CPTools-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,23 +285,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7234FED9ADA4C095B1C08B2366DFDDD9 /* CPTools */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 97239FDB62C66567F45A0D95BCE24303 /* Build configuration list for PBXNativeTarget "CPTools" */;
-			buildPhases = (
-				32D4466BD36921D9A6E5380B04113749 /* Sources */,
-				162259B4C52970AC8D9F48FA540BE8B3 /* Frameworks */,
-				A6AED2AEE10CF12DAEFCF2B7740E250A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CPTools;
-			productName = CPTools;
-			productReference = 75CA37EB24A9C45FC68F06565D6FF7F5 /* CPTools.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		99DB0167F6AF2EFBF2F49A8B73BBE336 /* Pods-CPTools_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BE4BB18766757F1D048F0436812DA79 /* Build configuration list for PBXNativeTarget "Pods-CPTools_Tests" */;
@@ -286,6 +300,23 @@
 			name = "Pods-CPTools_Tests";
 			productName = "Pods-CPTools_Tests";
 			productReference = 30AA5ABB627C42A32D7E494FB4043250 /* Pods_CPTools_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB9A5F4C047E48AF4F43FA8E4A8DBA5E /* CPTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ED274246D14C6BB37CBA675E1071B0F /* Build configuration list for PBXNativeTarget "CPTools" */;
+			buildPhases = (
+				50171F6AC534E32337BC4D3C1158F59C /* Sources */,
+				4350C5E05E5548DFB14F38C76FF4C411 /* Frameworks */,
+				98F1A45DD9032707BE61F12197EEE512 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPTools;
+			productName = CPTools;
+			productReference = 75CA37EB24A9C45FC68F06565D6FF7F5 /* CPTools.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BC5B510811AC6209487C0C0869BDE3A1 /* Pods-CPTools_Example */ = {
@@ -327,7 +358,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7234FED9ADA4C095B1C08B2366DFDDD9 /* CPTools */,
+				AB9A5F4C047E48AF4F43FA8E4A8DBA5E /* CPTools */,
 				BC5B510811AC6209487C0C0869BDE3A1 /* Pods-CPTools_Example */,
 				99DB0167F6AF2EFBF2F49A8B73BBE336 /* Pods-CPTools_Tests */,
 			);
@@ -343,12 +374,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		32D4466BD36921D9A6E5380B04113749 /* Sources */ = {
+		50171F6AC534E32337BC4D3C1158F59C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92C2AC5C4DD1962208F291BA1E6CAF40 /* CPTools-dummy.m in Sources */,
-				6BA9302A5DBC22BCC72DAB17DB5ED439 /* ReplaceMe.m in Sources */,
+				C8890950B3752ABF5EC867BB7EE7085B /* CPTools-dummy.m in Sources */,
+				B0F1142431556BA9FFDBE7E93DFB438B /* ReplaceMe.m in Sources */,
+				B0F1142431556BA9FFDBE7E93DFB438B /* ReplaceMe.m in Sources */,
+				B0F1142431556BA9FFDBE7E93DFB438B /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +399,7 @@
 		B2F2418A0709A42240BE2E9B3F1AA87B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CPTools;
-			target = 7234FED9ADA4C095B1C08B2366DFDDD9 /* CPTools */;
+			target = AB9A5F4C047E48AF4F43FA8E4A8DBA5E /* CPTools */;
 			targetProxy = 604FD30E040DED1D4754962F264345C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -476,7 +509,7 @@
 			};
 			name = Debug;
 		};
-		9A6AC2735274CC7229611500F0C82556 /* Release */ = {
+		7CB54A61AA20A8A67D613015E13C1C0F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9844B1257534D796ECD800ED5B91EDA9 /* CPTools.xcconfig */;
 			buildSettings = {
@@ -505,7 +538,7 @@
 			};
 			name = Release;
 		};
-		B4B9BE350F2CFEE07ED9673152BA9F7F /* Debug */ = {
+		A470C0208FC5817051F05D7B1F90FB93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9844B1257534D796ECD800ED5B91EDA9 /* CPTools.xcconfig */;
 			buildSettings = {
@@ -663,20 +696,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		3ED274246D14C6BB37CBA675E1071B0F /* Build configuration list for PBXNativeTarget "CPTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A470C0208FC5817051F05D7B1F90FB93 /* Debug */,
+				7CB54A61AA20A8A67D613015E13C1C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5BE4BB18766757F1D048F0436812DA79 /* Build configuration list for PBXNativeTarget "Pods-CPTools_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68A2E198BAACB565559E68EABCD19315 /* Debug */,
 				F1A796F05C24E57420A3F786F9D2B353 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		97239FDB62C66567F45A0D95BCE24303 /* Build configuration list for PBXNativeTarget "CPTools" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B4B9BE350F2CFEE07ED9673152BA9F7F /* Debug */,
-				9A6AC2735274CC7229611500F0C82556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
