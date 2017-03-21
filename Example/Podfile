@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CPTools_Example' do
+  pod 'CPTools', :path => '../'
+
+  target 'CPTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
