@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CPTools'
-  s.version          = '0.2.2'
+  s.version          = '0.2.3'
   s.summary          = 'CPTools encompasses some commonly used tools.'
 
 # This description is used to generate tags and improve search results.
@@ -32,20 +32,20 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-s.source_files = 'CPTools/Classes/**/*'
+    s.public_header_files = 'CPTools/Classes/CPTools.h'
 
-s.subspec 'Database' do |a|
-a.source_files = 'CPTools/Classes/Database/**/*'
-end
+    s.subspec 'Database' do |a|
+        a.source_files = 'CPTools/Classes/Database/**/*'
+    end
 
-s.subspec 'Network' do |b|
-b.source_files = 'CPTools/Classes/Network/**/*'
-b.dependency 'AFNetworking', '~> 3.1.0'
-end
+    s.subspec 'Network' do |b|
+        b.source_files = 'CPTools/Classes/Network/**/*'
+        b.dependency 'AFNetworking', '~> 3.1.0'
+    end
 
-s.subspec 'UIKit' do |c|
-c.source_files = 'CPTools/Classes/UIKit/**/*'
-end
+    s.subspec 'UIKit' do |c|
+        c.source_files = 'CPTools/Classes/UIKit/**/*'
+    end
 
   # s.resource_bundles = {
   #   'CPTools' => ['CPTools/Assets/*.png']
