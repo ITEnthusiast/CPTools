@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-s.public_header_files = 'CPTools/Classes/CPTools.h'
+    s.public_header_files = 'CPTools/Headers/Public/*.h'
 
     s.subspec 'Database' do |a|
         a.source_files = 'CPTools/Classes/Database/**/*'
