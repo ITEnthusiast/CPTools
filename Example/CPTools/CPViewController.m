@@ -7,6 +7,7 @@
 //
 
 #import "CPViewController.h"
+#import <CPTools/test.h>
 
 @interface CPViewController ()
 
