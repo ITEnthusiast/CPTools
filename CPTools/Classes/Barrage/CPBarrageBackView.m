@@ -202,16 +202,19 @@
 }
 
 - (void)click:(UIGestureRecognizer *)gesture {
-    CGPoint point = [gesture locationInView:self];
-    for (UIView *barrageView in self.barrageViews) {
-        CGRect barragePresentationFrame = barrageView.layer.presentationLayer.frame;
-        if (CGRectContainsPoint(barragePresentationFrame, point)) {
-            if ([self.delegate respondsToSelector:@selector(barrageBackViewDidClickBarrageView:point:)]) {
-                [self.delegate barrageBackViewDidClickBarrageView:barrageView point:point];
-                break;
-            }
-        }
-    }
+//    CGPoint point = [gesture locationInView:self];
+//    for (UIView *barrageView in self.barrageViews) {
+//        CGRect barragePresentationFrame = CGRectNull;
+//        if (barrageView.layer.presentationLayer) {
+//            barragePresentationFrame = barrageView.layer.presentationLayer.frame;
+//        }
+//        if (CGRectContainsPoint(barragePresentationFrame, point)) {
+//            if ([self.delegate respondsToSelector:@selector(barrageBackViewDidClickBarrageView:point:)]) {
+//                [self.delegate barrageBackViewDidClickBarrageView:barrageView point:point];
+//                break;
+//            }
+//        }
+//    }
 }
 
 @end
