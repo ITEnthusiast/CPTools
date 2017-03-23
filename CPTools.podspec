@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CPTools'
-  s.version          = '0.2.5'
+  s.version          = '0.2.6'
   s.summary          = 'CPTools encompasses some commonly used tools.'
 
 # This description is used to generate tags and improve search results.
@@ -34,21 +34,25 @@ Pod::Spec.new do |s|
 
 #s.public_header_files = 'CPTools/Headers/**/*.h'
 
-    s.subspec 'Database' do |a|
-        a.source_files = 'CPTools/Classes/Database/**/*'
+    s.subspec 'Database' do |database|
+        database.source_files = 'CPTools/Classes/Database/**/*'
     end
 
-    s.subspec 'Network' do |b|
-        b.source_files = 'CPTools/Classes/Network/**/*'
-        b.dependency 'AFNetworking', '~> 3.1.0'
+    s.subspec 'Network' do |network|
+        network.source_files = 'CPTools/Classes/Network/**/*'
+        network.dependency 'AFNetworking', '~> 3.1.0'
     end
 
-    s.subspec 'UIKit' do |c|
-        c.source_files = 'CPTools/Classes/UIKit/**/*'
+    s.subspec 'UIKit' do |uikit|
+        uikit.source_files = 'CPTools/Classes/UIKit/**/*'
     end
 
-    s.subspec 'Audio' do |d|
-        d.source_files = 'CPTools/Classes/Audio/**/*'
+    s.subspec 'Audio' do |audio|
+        audio.source_files = 'CPTools/Classes/Audio/**/*'
+    end
+
+    s.subspec 'Barrage' do |barrage|
+        barrage.source_files = 'CPTools/Classes/Barrage/**/*'
     end
 
   # s.resource_bundles = {

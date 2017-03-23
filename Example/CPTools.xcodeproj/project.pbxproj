@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B319D0C21E829B5D00F97876 /* CPBarrageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B319D0C11E829B5D00F97876 /* CPBarrageModel.m */; };
 		FE742A8B31E7C0C9DFD41133 /* Pods_CPTools_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D124087DD49900C78EF75A /* Pods_CPTools_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		040ADA355AAA3698F23D99B9 /* Pods-CPTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPTools_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPTools_Tests/Pods-CPTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0E2645AA2A50C8686793ACAA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0E2645AA2A50C8686793ACAA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		20D124087DD49900C78EF75A /* Pods_CPTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37941CB5D190F4420DD1A916 /* Pods_CPTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* CPTools_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPTools_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,9 +64,11 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77751B68044F95971B917465 /* Pods-CPTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPTools_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPTools_Example/Pods-CPTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AE4B562A4695D6B745F0805C /* CPTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CPTools.podspec; path = ../CPTools.podspec; sourceTree = "<group>"; };
+		AE4B562A4695D6B745F0805C /* CPTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CPTools.podspec; path = ../CPTools.podspec; sourceTree = "<group>"; };
+		B319D0C01E829B5D00F97876 /* CPBarrageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPBarrageModel.h; sourceTree = "<group>"; };
+		B319D0C11E829B5D00F97876 /* CPBarrageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPBarrageModel.m; sourceTree = "<group>"; };
 		D162148CF070920F077B91A9 /* Pods-CPTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPTools_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPTools_Example/Pods-CPTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D68173ACE511059B32D031E2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D68173ACE511059B32D031E2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FA3EFDC6AE877271E172E8DC /* Pods-CPTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPTools_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPTools_Tests/Pods-CPTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* CPViewController.h */,
 				6003F5A6195388D20070C39A /* CPViewController.m */,
+				B319D0C01E829B5D00F97876 /* CPBarrageModel.h */,
+				B319D0C11E829B5D00F97876 /* CPBarrageModel.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -250,6 +255,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "admin@caopei.cn";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = C2HG3L56ZF;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -397,6 +405,7 @@
 				6003F59E195388D20070C39A /* CPAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* CPViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				B319D0C21E829B5D00F97876 /* CPBarrageModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +533,7 @@
 			baseConfigurationReference = D162148CF070920F077B91A9 /* Pods-CPTools_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2HG3L56ZF;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CPTools/CPTools-Prefix.pch";
 				INFOPLIST_FILE = "CPTools/CPTools-Info.plist";
@@ -539,6 +549,7 @@
 			baseConfigurationReference = 77751B68044F95971B917465 /* Pods-CPTools_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2HG3L56ZF;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CPTools/CPTools-Prefix.pch";
 				INFOPLIST_FILE = "CPTools/CPTools-Info.plist";
