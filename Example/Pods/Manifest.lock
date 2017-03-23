@@ -14,18 +14,18 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - CPTools (0.2.5):
-    - CPTools/Audio (= 0.2.5)
-    - CPTools/Barrage (= 0.2.5)
-    - CPTools/Database (= 0.2.5)
-    - CPTools/Network (= 0.2.5)
-    - CPTools/UIKit (= 0.2.5)
-  - CPTools/Audio (0.2.5)
-  - CPTools/Barrage (0.2.5)
-  - CPTools/Database (0.2.5)
-  - CPTools/Network (0.2.5):
+  - CPTools (0.2.6):
+    - CPTools/Audio (= 0.2.6)
+    - CPTools/Barrage (= 0.2.6)
+    - CPTools/Database (= 0.2.6)
+    - CPTools/Network (= 0.2.6)
+    - CPTools/UIKit (= 0.2.6)
+  - CPTools/Audio (0.2.6)
+  - CPTools/Barrage (0.2.6)
+  - CPTools/Database (0.2.6)
+  - CPTools/Network (0.2.6):
     - AFNetworking (~> 3.1.0)
-  - CPTools/UIKit (0.2.5)
+  - CPTools/UIKit (0.2.6)
 
 DEPENDENCIES:
   - CPTools (from `../`)
@@ -36,7 +36,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  CPTools: c21a3245055fd673fd6d3f8f740f29708c5e9e25
+  CPTools: a6257c1fead318b961d628e481b539132aa52df1
 
 PODFILE CHECKSUM: b915f2b671527e79c6a2e6db9a1085813ed18a46
 

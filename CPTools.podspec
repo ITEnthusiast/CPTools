@@ -52,7 +52,8 @@ Pod::Spec.new do |s|
     end
 
     s.subspec 'Barrage' do |barrage|
-        barrage.source_files = 'CPTools/Classes/Barrage/**/*'
+        barrage.source_files = 'CPTools/Classes/Barrage/**/*.{m,h}'
+        barrage.dependency 'CPTools/UIKit'
     end
 
   # s.resource_bundles = {
