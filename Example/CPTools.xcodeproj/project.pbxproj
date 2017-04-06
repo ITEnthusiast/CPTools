@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B319D0C21E829B5D00F97876 /* CPBarrageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B319D0C11E829B5D00F97876 /* CPBarrageModel.m */; };
+		B3FED7FC1E961D4100ED3E66 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FED7FB1E961D4100ED3E66 /* libsqlite3.0.tbd */; };
 		FE742A8B31E7C0C9DFD41133 /* Pods_CPTools_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D124087DD49900C78EF75A /* Pods_CPTools_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,7 @@
 		AE4B562A4695D6B745F0805C /* CPTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CPTools.podspec; path = ../CPTools.podspec; sourceTree = "<group>"; };
 		B319D0C01E829B5D00F97876 /* CPBarrageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPBarrageModel.h; sourceTree = "<group>"; };
 		B319D0C11E829B5D00F97876 /* CPBarrageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPBarrageModel.m; sourceTree = "<group>"; };
+		B3FED7FB1E961D4100ED3E66 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		D162148CF070920F077B91A9 /* Pods-CPTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPTools_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPTools_Example/Pods-CPTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D68173ACE511059B32D031E2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FA3EFDC6AE877271E172E8DC /* Pods-CPTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPTools_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPTools_Tests/Pods-CPTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3FED7FC1E961D4100ED3E66 /* libsqlite3.0.tbd in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -122,6 +125,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B3FED7FB1E961D4100ED3E66 /* libsqlite3.0.tbd */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,

@@ -9,6 +9,7 @@
 #import "CPViewController.h"
 #import <CPTools/CPBarrageBackView.h>
 #import "CPBarrageModel.h"
+#import <sqlite3.h>
 
 @interface CPViewController ()<CPBarrageBackViewDelegate>
 

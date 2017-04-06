@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CPTools'
-  s.version          = '0.2.6'
+  s.version          = '0.2.8'
   s.summary          = 'CPTools encompasses some commonly used tools.'
 
 # This description is used to generate tags and improve search results.
